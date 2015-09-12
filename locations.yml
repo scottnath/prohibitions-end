@@ -1,0 +1,20 @@
+
+locations
+	-
+		location: United States
+		abbr: USA
+		type: country
+		parent: false
+		legal: false
+		buy: false
+		grow: false
+		hemp: false
+	-
+		location: Colorado
+		abbr: CO
+		type: state
+		parent: usa
+		legal: true
+		buy: true
+		grow: true
+		hemp: true
