@@ -10,10 +10,12 @@ Grow: BOOL
 Hemp: BOOL
 Medical: BOOL
 Important Dates:
-	date: DATE
-	name: TEXT
-	related: SELECT [Legal, Medical, Stores, Grow]
-	urls
-		title TEXT
-		source URL
-		publication: TEXT -> AUTO
+  date: DATE
+  name: TEXT
+  related:
+      changeTo: SELECT [Legal, Medical, Stores, Grow]
+      becomes: BOOL
+  urls
+    title TEXT
+    source URL
+    publication: TEXT -> AUTO

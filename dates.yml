@@ -1,0 +1,12 @@
+dates:
+  -
+    date: 2015-10-01
+    name: Oregon allows in-dispensary cannabis sales
+    related:
+      changeTo: buy
+      becomes: true
+    urls:
+      -
+        title: "Oregon To Begin Recreational Marijuana Sales Early"
+        source: http://www.huffingtonpost.com/entry/oregon-recreational-marijuana-sales_55b7e75de4b0224d88344d2b
+        publication: Huffington Post
