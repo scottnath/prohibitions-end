@@ -1,0 +1,4 @@
+collections:
+  locations:
+    output: true
+    permalink: /locations/:path/
