@@ -14,6 +14,7 @@
 			<th><span class="sort" data-sort="grow">grow</span></th>
 			<th><span class="sort" data-sort="hemp">hemp</span></th>
 			<th><span class="sort" data-sort="medical">medical</span></th>
+			<th><span class="sort" data-sort="rating">rating</span></th>
 		</tr>
 	</thead>
 	<tbody class="list">
@@ -25,6 +26,7 @@
 			<td class="grow">{{ location.grow }}</td>
 			<td class="hemp">{{ location.hemp }}</td>
 			<td class="medical">{{ location.medical }}</td>
+			<td class="rating">{% include ratings-calc.html %}</td>
 		</tr>
 	{% endfor %}
 	</tbody>

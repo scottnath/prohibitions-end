@@ -1,0 +1,19 @@
+{% assign rating = 0 %}
+{% if location.legal %}
+
+  {% capture rating %}{{ rating | plus:80 }}{% endcapture %}
+  {% if location.buy %}
+    {% capture rating %}{{ rating | plus:10 }}{% endcapture %}
+  {% endif %}
+  {% if location.grow %}
+    {% capture rating %}{{ rating | plus:10 }}{% endcapture %}
+  {% endif %}
+{% else %}
+  {% if location.medical %}
+    {% capture rating %}{{ rating | plus:10 }}{% endcapture %}
+  {% endif %}
+  {% if location.hemp %}
+    {% capture rating %}{{ rating | plus:10 }}{% endcapture %}
+  {% endif %}
+{% endif %}
+<span>{{ rating }}</span>
