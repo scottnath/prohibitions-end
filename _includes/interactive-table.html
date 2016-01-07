@@ -8,7 +8,7 @@
 <table class="table table-striped">
 	<thead>
 		<tr>
-			<th><span class="sort" data-sort="location">Company Name</span></th>
+			<th><span class="sort" data-sort="location">Location</span></th>
 			<th><span class="sort" data-sort="legal">legal</span></th>
 			<th><span class="sort" data-sort="buy">buy</span></th>
 			<th><span class="sort" data-sort="grow">grow</span></th>
@@ -20,7 +20,7 @@
 	<tbody class="list">
 	{% for location in site.locations %}
 		<tr>
-			<td class="location">{{ location.location }}</td>
+			<td class="location"><span class="location__name">{{ location.location }}</span><span class="location__abbr">{{ location.abbr }}</span></td>
 			<td class="legal">{{ location.legal }}</td>
 			<td class="buy">{{ location.buy }}</td>
 			<td class="grow">{{ location.grow }}</td>

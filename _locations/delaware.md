@@ -1,10 +1,10 @@
 ---
-location: Washington
-abbr: WA
+location: Delaware
+abbr: DE
 type: state
 parent: usa
-legal: true
-buy: true
+legal: false
+buy: false
 grow: false
 hemp: true
 medical: true

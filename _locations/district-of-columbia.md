@@ -1,11 +1,11 @@
 ---
-location: Oregon
-abbr: OR
+location: Washington D.C.
+abbr: DC
 type: state
 parent: usa
 legal: true
-buy: true
+buy: false
 grow: true
-hemp: true
+hemp: false
 medical: true
 ---

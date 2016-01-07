@@ -1,10 +1,10 @@
 ---
-location: Washington
-abbr: WA
+location: Maine
+abbr: ME
 type: state
 parent: usa
-legal: true
-buy: true
+legal: false
+buy: false
 grow: false
 hemp: true
 medical: true
