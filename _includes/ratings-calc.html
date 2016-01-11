@@ -16,4 +16,6 @@
     {% capture rating %}{{ rating | plus:10 }}{% endcapture %}
   {% endif %}
 {% endif %}
-<span>{{ rating }}</span>
+<span class="rating__number">{{ rating }}</span>
+{% assign juice = rating %}
+<span class="rating__graphical">{% include battery.html %}</span>
